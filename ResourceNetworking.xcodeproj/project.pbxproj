@@ -10,6 +10,22 @@
 		844E18F3238D4B1100D6F38B /* ResourceNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844E18E9238D4B1100D6F38B /* ResourceNetworking.framework */; };
 		844E18F8238D4B1200D6F38B /* ResourceNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E18F7238D4B1200D6F38B /* ResourceNetworkingTests.swift */; };
 		844E18FA238D4B1200D6F38B /* ResourceNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 844E18EC238D4B1100D6F38B /* ResourceNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		844E1912238D4CD100D6F38B /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E1904238D4CD100D6F38B /* Networking.swift */; };
+		844E1913238D4CD100D6F38B /* NetworkHelperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E1905238D4CD100D6F38B /* NetworkHelperProtocol.swift */; };
+		844E1914238D4CD100D6F38B /* CancellationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E1906238D4CD100D6F38B /* CancellationProtocol.swift */; };
+		844E1915238D4CD100D6F38B /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E1907238D4CD100D6F38B /* OptionalType.swift */; };
+		844E1916238D4CD100D6F38B /* ReachabilityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E1908238D4CD100D6F38B /* ReachabilityProtocol.swift */; };
+		844E1917238D4CD100D6F38B /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E190A238D4CD100D6F38B /* Resource.swift */; };
+		844E1918238D4CD100D6F38B /* Resource+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E190B238D4CD100D6F38B /* Resource+Codable.swift */; };
+		844E1919238D4CD100D6F38B /* URLRequest+Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E190C238D4CD100D6F38B /* URLRequest+Resource.swift */; };
+		844E191A238D4CD100D6F38B /* OCCancel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E190E238D4CD100D6F38B /* OCCancel.swift */; };
+		844E191B238D4CD100D6F38B /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E190F238D4CD100D6F38B /* NetworkHelper.swift */; };
+		844E191C238D4CD100D6F38B /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E1910238D4CD100D6F38B /* HttpMethod.swift */; };
+		844E191D238D4CD100D6F38B /* OperationCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E1911238D4CD100D6F38B /* OperationCompletion.swift */; };
+		844E1921238D4DD100D6F38B /* SimpleCancellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E191F238D4DD100D6F38B /* SimpleCancellation.swift */; };
+		844E1922238D4DD100D6F38B /* FakeNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E1920238D4DD100D6F38B /* FakeNetworking.swift */; };
+		844E1924238D4DEC00D6F38B /* CancelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E1923238D4DEC00D6F38B /* CancelTests.swift */; };
+		844E1927238D511000D6F38B /* FakeReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E1926238D511000D6F38B /* FakeReachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +45,22 @@
 		844E18F2238D4B1100D6F38B /* ResourceNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResourceNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		844E18F7238D4B1200D6F38B /* ResourceNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceNetworkingTests.swift; sourceTree = "<group>"; };
 		844E18F9238D4B1200D6F38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844E1904238D4CD100D6F38B /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		844E1905238D4CD100D6F38B /* NetworkHelperProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelperProtocol.swift; sourceTree = "<group>"; };
+		844E1906238D4CD100D6F38B /* CancellationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancellationProtocol.swift; sourceTree = "<group>"; };
+		844E1907238D4CD100D6F38B /* OptionalType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalType.swift; sourceTree = "<group>"; };
+		844E1908238D4CD100D6F38B /* ReachabilityProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityProtocol.swift; sourceTree = "<group>"; };
+		844E190A238D4CD100D6F38B /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		844E190B238D4CD100D6F38B /* Resource+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Resource+Codable.swift"; sourceTree = "<group>"; };
+		844E190C238D4CD100D6F38B /* URLRequest+Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+Resource.swift"; sourceTree = "<group>"; };
+		844E190E238D4CD100D6F38B /* OCCancel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCCancel.swift; sourceTree = "<group>"; };
+		844E190F238D4CD100D6F38B /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		844E1910238D4CD100D6F38B /* HttpMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		844E1911238D4CD100D6F38B /* OperationCompletion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationCompletion.swift; sourceTree = "<group>"; };
+		844E191F238D4DD100D6F38B /* SimpleCancellation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCancellation.swift; sourceTree = "<group>"; };
+		844E1920238D4DD100D6F38B /* FakeNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeNetworking.swift; sourceTree = "<group>"; };
+		844E1923238D4DEC00D6F38B /* CancelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelTests.swift; sourceTree = "<group>"; };
+		844E1926238D511000D6F38B /* FakeReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeReachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +103,9 @@
 		844E18EB238D4B1100D6F38B /* ResourceNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				844E190D238D4CD100D6F38B /* Network */,
+				844E1903238D4CD100D6F38B /* Protocols */,
+				844E1909238D4CD100D6F38B /* Resource */,
 				844E18EC238D4B1100D6F38B /* ResourceNetworking.h */,
 				844E18ED238D4B1100D6F38B /* Info.plist */,
 			);
@@ -80,10 +115,55 @@
 		844E18F6238D4B1100D6F38B /* ResourceNetworkingTests */ = {
 			isa = PBXGroup;
 			children = (
+				844E191E238D4DD100D6F38B /* Mocks */,
 				844E18F7238D4B1200D6F38B /* ResourceNetworkingTests.swift */,
+				844E1923238D4DEC00D6F38B /* CancelTests.swift */,
 				844E18F9238D4B1200D6F38B /* Info.plist */,
 			);
 			path = ResourceNetworkingTests;
+			sourceTree = "<group>";
+		};
+		844E1903238D4CD100D6F38B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				844E1904238D4CD100D6F38B /* Networking.swift */,
+				844E1905238D4CD100D6F38B /* NetworkHelperProtocol.swift */,
+				844E1906238D4CD100D6F38B /* CancellationProtocol.swift */,
+				844E1907238D4CD100D6F38B /* OptionalType.swift */,
+				844E1908238D4CD100D6F38B /* ReachabilityProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		844E1909238D4CD100D6F38B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				844E190A238D4CD100D6F38B /* Resource.swift */,
+				844E190B238D4CD100D6F38B /* Resource+Codable.swift */,
+				844E190C238D4CD100D6F38B /* URLRequest+Resource.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		844E190D238D4CD100D6F38B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				844E190E238D4CD100D6F38B /* OCCancel.swift */,
+				844E190F238D4CD100D6F38B /* NetworkHelper.swift */,
+				844E1910238D4CD100D6F38B /* HttpMethod.swift */,
+				844E1911238D4CD100D6F38B /* OperationCompletion.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		844E191E238D4DD100D6F38B /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				844E191F238D4DD100D6F38B /* SimpleCancellation.swift */,
+				844E1920238D4DD100D6F38B /* FakeNetworking.swift */,
+				844E1926238D511000D6F38B /* FakeReachability.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +275,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844E1913238D4CD100D6F38B /* NetworkHelperProtocol.swift in Sources */,
+				844E1915238D4CD100D6F38B /* OptionalType.swift in Sources */,
+				844E191B238D4CD100D6F38B /* NetworkHelper.swift in Sources */,
+				844E191D238D4CD100D6F38B /* OperationCompletion.swift in Sources */,
+				844E191A238D4CD100D6F38B /* OCCancel.swift in Sources */,
+				844E191C238D4CD100D6F38B /* HttpMethod.swift in Sources */,
+				844E1914238D4CD100D6F38B /* CancellationProtocol.swift in Sources */,
+				844E1919238D4CD100D6F38B /* URLRequest+Resource.swift in Sources */,
+				844E1917238D4CD100D6F38B /* Resource.swift in Sources */,
+				844E1916238D4CD100D6F38B /* ReachabilityProtocol.swift in Sources */,
+				844E1912238D4CD100D6F38B /* Networking.swift in Sources */,
+				844E1918238D4CD100D6F38B /* Resource+Codable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844E1921238D4DD100D6F38B /* SimpleCancellation.swift in Sources */,
+				844E1927238D511000D6F38B /* FakeReachability.swift in Sources */,
+				844E1924238D4DEC00D6F38B /* CancelTests.swift in Sources */,
 				844E18F8238D4B1200D6F38B /* ResourceNetworkingTests.swift in Sources */,
+				844E1922238D4DD100D6F38B /* FakeNetworking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +482,7 @@
 		844E1901238D4B1200D6F38B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ResourceNetworkingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +500,7 @@
 		844E1902238D4B1200D6F38B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ResourceNetworkingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
