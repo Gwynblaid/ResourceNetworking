@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18166B3424EE5897001C18C6 /* URLStringConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18166B3324EE5897001C18C6 /* URLStringConvertable.swift */; };
 		844E18F3238D4B1100D6F38B /* ResourceNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844E18E9238D4B1100D6F38B /* ResourceNetworking.framework */; };
 		844E18F8238D4B1200D6F38B /* ResourceNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E18F7238D4B1200D6F38B /* ResourceNetworkingTests.swift */; };
 		844E18FA238D4B1200D6F38B /* ResourceNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 844E18EC238D4B1100D6F38B /* ResourceNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,7 +22,6 @@
 		844E191A238D4CD100D6F38B /* OCCancel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E190E238D4CD100D6F38B /* OCCancel.swift */; };
 		844E191B238D4CD100D6F38B /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E190F238D4CD100D6F38B /* NetworkHelper.swift */; };
 		844E191C238D4CD100D6F38B /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E1910238D4CD100D6F38B /* HttpMethod.swift */; };
-		844E191D238D4CD100D6F38B /* OperationCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E1911238D4CD100D6F38B /* OperationCompletion.swift */; };
 		844E1921238D4DD100D6F38B /* SimpleCancellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E191F238D4DD100D6F38B /* SimpleCancellation.swift */; };
 		844E1922238D4DD100D6F38B /* FakeNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E1920238D4DD100D6F38B /* FakeNetworking.swift */; };
 		844E1924238D4DEC00D6F38B /* CancelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E1923238D4DEC00D6F38B /* CancelTests.swift */; };
@@ -42,6 +42,7 @@
 		1814F7D424EE4234002AE539 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1814F7D524EE423B002AE539 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1814F7D624EE4244002AE539 /* ResourceNetworking.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ResourceNetworking.podspec; sourceTree = "<group>"; };
+		18166B3324EE5897001C18C6 /* URLStringConvertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLStringConvertable.swift; sourceTree = "<group>"; };
 		844E18E9238D4B1100D6F38B /* ResourceNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ResourceNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		844E18EC238D4B1100D6F38B /* ResourceNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResourceNetworking.h; sourceTree = "<group>"; };
 		844E18ED238D4B1100D6F38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +60,6 @@
 		844E190E238D4CD100D6F38B /* OCCancel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCCancel.swift; sourceTree = "<group>"; };
 		844E190F238D4CD100D6F38B /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		844E1910238D4CD100D6F38B /* HttpMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
-		844E1911238D4CD100D6F38B /* OperationCompletion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationCompletion.swift; sourceTree = "<group>"; };
 		844E191F238D4DD100D6F38B /* SimpleCancellation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCancellation.swift; sourceTree = "<group>"; };
 		844E1920238D4DD100D6F38B /* FakeNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeNetworking.swift; sourceTree = "<group>"; };
 		844E1923238D4DEC00D6F38B /* CancelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelTests.swift; sourceTree = "<group>"; };
@@ -137,6 +137,7 @@
 				844E1906238D4CD100D6F38B /* CancellationProtocol.swift */,
 				844E1907238D4CD100D6F38B /* OptionalType.swift */,
 				844E1908238D4CD100D6F38B /* ReachabilityProtocol.swift */,
+				18166B3324EE5897001C18C6 /* URLStringConvertable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -157,7 +158,6 @@
 				844E190E238D4CD100D6F38B /* OCCancel.swift */,
 				844E190F238D4CD100D6F38B /* NetworkHelper.swift */,
 				844E1910238D4CD100D6F38B /* HttpMethod.swift */,
-				844E1911238D4CD100D6F38B /* OperationCompletion.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -281,10 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18166B3424EE5897001C18C6 /* URLStringConvertable.swift in Sources */,
 				844E1913238D4CD100D6F38B /* NetworkHelperProtocol.swift in Sources */,
 				844E1915238D4CD100D6F38B /* OptionalType.swift in Sources */,
 				844E191B238D4CD100D6F38B /* NetworkHelper.swift in Sources */,
-				844E191D238D4CD100D6F38B /* OperationCompletion.swift in Sources */,
 				844E191A238D4CD100D6F38B /* OCCancel.swift in Sources */,
 				844E191C238D4CD100D6F38B /* HttpMethod.swift in Sources */,
 				844E1914238D4CD100D6F38B /* CancellationProtocol.swift in Sources */,

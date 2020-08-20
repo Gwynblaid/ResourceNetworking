@@ -39,7 +39,7 @@ final public class NetworkHelper {
 
 // MARK: - NetworkHelperProtocol
 extension NetworkHelper: NetworkHelperProtocol {
-	public func load<A>(resource: Resource<A>, completion: @escaping (OperationCompletion<A>) -> ()) -> Cancellation? {
+	public func load<A>(resource: Resource<A>, completion: @escaping (Result<A, Error>) -> ()) -> Cancellation? {
 		if !reachability.isReachable {
 			completion(.failure(Errors.noConnection))
 			return nil
