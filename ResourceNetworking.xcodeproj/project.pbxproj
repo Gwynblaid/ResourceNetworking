@@ -39,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1814F7D424EE4234002AE539 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1814F7D524EE423B002AE539 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1814F7D624EE4244002AE539 /* ResourceNetworking.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ResourceNetworking.podspec; sourceTree = "<group>"; };
 		844E18E9238D4B1100D6F38B /* ResourceNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ResourceNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		844E18EC238D4B1100D6F38B /* ResourceNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResourceNetworking.h; sourceTree = "<group>"; };
 		844E18ED238D4B1100D6F38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +88,9 @@
 		844E18DF238D4B1100D6F38B = {
 			isa = PBXGroup;
 			children = (
+				1814F7D424EE4234002AE539 /* LICENSE */,
+				1814F7D524EE423B002AE539 /* README.md */,
+				1814F7D624EE4244002AE539 /* ResourceNetworking.podspec */,
 				844E18EB238D4B1100D6F38B /* ResourceNetworking */,
 				844E18F6238D4B1100D6F38B /* ResourceNetworkingTests */,
 				844E18EA238D4B1100D6F38B /* Products */,
