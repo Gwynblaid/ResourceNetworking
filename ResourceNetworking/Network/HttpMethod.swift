@@ -27,7 +27,7 @@ extension HttpMethod {
 	///
 	/// - Parameter f: функция трансляции типа Body в тип B
 	/// - Returns: возвращает HttpMethod с новым типом B
-	func map<B>(f: (Body) -> B) -> HttpMethod<B> {
+	public func map<B>(f: (Body) -> B) -> HttpMethod<B> {
 		switch self {
 		case .get:
 			return .get
