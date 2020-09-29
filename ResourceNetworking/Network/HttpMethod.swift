@@ -7,9 +7,13 @@ import Foundation
 ///
 /// - get GET-запрос
 /// - post POST-зпрос, передаваемый параметр типа Body - тело запроса(HTTPBody)
+/// - put PUT-зпрос, передаваемый параметр типа Body - тело запроса(HTTPBody)
+/// - delete DELETE-зпрос,
 public enum HttpMethod<Body> {
 	case get
 	case post(Body)
+    case put(Body)
+    case delete
 }
 
 extension HttpMethod {
@@ -20,6 +24,10 @@ extension HttpMethod {
 			return "GET"
 		case .post:
 			return "POST"
+        case .put:
+            return "PUT"
+        case .delete:
+            return "DELETE"
 		}
 	}
 	
@@ -33,6 +41,10 @@ extension HttpMethod {
 			return .get
 		case .post(let body):
 			return .post(f(body))
-		}
+        case .put(let body):
+            return .put(f(body))
+        case .delete:
+            return .delete
+        }
 	}
 }
